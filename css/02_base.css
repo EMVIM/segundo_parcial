@@ -1,0 +1,52 @@
+:root {
+  --primary: #7750f6;
+  --body: #ecf0fe;
+  --white: #fff;
+  --light-100: #ededed;
+  --light-200: #dfdfdf;
+  --grey-100: #a4a4a4;
+  --grey-200: #9899b6;
+  --grey-300: #343434;
+  --background: #f0f0f0;
+}
+
+.dark-mode {
+  --background: #464646;
+  --body: #343434;
+  --text-color: #fff;
+  --primary: #7750f6;
+  --grey-100: #6b6b6b;
+  --grey-200: #9899b6;
+  --grey-300: #ecf0fe;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: var(--body);
+  font-size: 1.2em;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Estilos para dispositivos móviles (Mobile First) */
+.container {
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.header,
+.navbar,
+.main,
+.footer {
+  padding: 20px;
+}
